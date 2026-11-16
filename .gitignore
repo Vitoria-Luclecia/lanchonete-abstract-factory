@@ -1,0 +1,9 @@
+/bin/
+*.class
+/.settings/
+/.metadata/
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
