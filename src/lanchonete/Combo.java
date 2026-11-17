@@ -20,6 +20,10 @@ public class Combo {
         return bebida;
     }
 
+    public String getDescricao() {
+        return hamburguer.getNome() + " + " + bebida.getNome();
+    }
+
     public BigDecimal getPrecoTotal() {
         return hamburguer.getPreco().add(bebida.getPreco());
     }
