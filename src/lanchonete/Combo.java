@@ -1,5 +1,7 @@
 package lanchonete;
 
+import java.math.BigDecimal;
+
 public class Combo {
 
     private Hamburguer hamburguer;
@@ -16,5 +18,9 @@ public class Combo {
 
     public Bebida getBebida() {
         return bebida;
+    }
+
+    public BigDecimal getPrecoTotal() {
+        return hamburguer.getPreco().add(bebida.getPreco());
     }
 }

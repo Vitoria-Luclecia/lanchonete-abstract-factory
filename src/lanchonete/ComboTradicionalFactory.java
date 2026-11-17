@@ -4,11 +4,11 @@ public class ComboTradicionalFactory implements ComboFactory {
 
     @Override
     public Hamburguer criarHamburguer() {
-        return null;
+        return new HamburguerTradicional();
     }
 
     @Override
     public Bebida criarBebida() {
-        return null;
+        return new Refrigerante();
     }
 }
